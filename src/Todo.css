@@ -1,0 +1,35 @@
+/* Todo.css */
+
+.todo {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.todo p {
+    margin: 0;
+}
+
+.todo-buttons {
+    margin-top: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: #66cc99;
+    color: #fff;
+}
+
+button.delete {
+    background-color: #ff6666;
+    color: #fff;
+}
